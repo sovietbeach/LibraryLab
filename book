@@ -13,7 +13,7 @@ class Book(object):
         self.publisher = publisher
         self.location = location
         self.isbn = isbn
-        self.num_copies = num_copies
+        self.copies = num_copies
         
     def __str__(self):
         
