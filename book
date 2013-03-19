@@ -16,4 +16,4 @@ class Book(object):
         self.num_copies = num_copies
         
     def __str__(self):
-        
+        self.title + " " + self.author + " " + self.year + " " + self.publisher + " " + self.location + " " + self.isbn + " " + self.copies
